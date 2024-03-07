@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Grocery Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/kewal-kiryana-store-high-resolution-logo - Copy.png" alt="Store Logo">
+        </div>
+       
+        <nav>
+            <input type="text" id="search" placeholder="Search...">
+            <select id="category">
+                <option value="">All Categories</option>
+                <option value="fruits">Fruits</option>
+                <option value="vegetables">Vegetables</option>
+                <option value="Spices">Spices</option>
+                <option value="Pulses">Pulses</option>
+                <option value="Dairy Products">Dairy products</option>
+                <option value="Bakery products">Bakery products</option>
+                <option value="Snacks">Snacks</option>
+                <option value="oils">oils</option>
+                <option value="Beverages">Beverages</option>
+                <option value="Biscuits">Biscuits</option>
+                <option value="wheat">wheat</option>
+                <option value="Ready to Eat">Ready to Eat</option>
+                <option value="Stationary">Stationary</option>
+                <!-- Add more categories as needed -->
+            </select>
+            <button id="viewCart" class="button">View Cart</button>
+            <button id="loginSignupBtn" class="button">Login / Signup</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/hero.img.png" alt="Store">
+    </section>
+    
+    <main id="store">
+        <!-- Fruits Section -->
+        <section id="fruits" class="category-section">
+            <h2>Fruits</h2>
+            <!-- Product cards for fruits will be dynamically added here -->
+        </section>
+    
+        <!-- Vegetables Section -->
+        <section id="vegetables" class="category-section">
+            <h2>Vegetables</h2>
+            <!-- Product cards for vegetables will be dynamically added here -->
+        </section>
+    
+        <!-- Spices Section -->
+        <section id="spices" class="category-section">
+            <h2>Spices</h2>
+            <!-- Product cards for spices will be dynamically added here -->
+        </section>
+    
+        <!-- Pulses Section -->
+        <section id="pulses" class="category-section">
+            <h2>Pulses</h2>
+            <!-- Product cards for pulses will be dynamically added here -->
+        </section>
+    
+        <!-- Dairy Products Section -->
+        <section id="dairyProducts" class="category-section">
+            <h2>Dairy Products</h2>
+            <!-- Product cards for dairy products will be dynamically added here -->
+        </section>
+    
+        <!-- Bakery Products Section -->
+        <section id="bakeryProducts" class="category-section">
+            <h2>Bakery Products</h2>
+            <!-- Product cards for bakery products will be dynamically added here -->
+        </section>
+    
+        <!-- Snacks Section -->
+        <section id="snacks" class="category-section">
+            <h2>Snacks</h2>
+            <!-- Product cards for snacks will be dynamically added here -->
+        </section>
+    
+        <!-- Oils Section -->
+        <section id="oils" class="category-section">
+            <h2>Oils</h2>
+            <!-- Product cards for oils will be dynamically added here -->
+        </section>
+    
+        <!-- Beverages Section -->
+        <section id="beverages" class="category-section">
+            <h2>Beverages</h2>
+            <!-- Product cards for beverages will be dynamically added here -->
+        </section>
+    
+        <!-- Biscuits Section -->
+        <section id="biscuits" class="category-section">
+            <h2>Biscuits</h2>
+            <!-- Product cards for biscuits will be dynamically added here -->
+        </section>
+    
+        <!-- Wheat Section -->
+        <section id="wheat" class="category-section">
+            <h2>Wheat</h2>
+            <!-- Product cards for wheat will be dynamically added here -->
+        </section>
+    
+        <!-- Ready to Eat Section -->
+        <section id="readyToEat" class="category-section">
+            <h2>Ready to Eat</h2>
+            <!-- Product cards for ready to eat items will be dynamically added here -->
+        </section>
+    
+        <!-- Stationary Section -->
+        <section id="stationary" class="category-section">
+            <h2>Stationary</h2>
+            <!-- Product cards for stationary items will be dynamically added here -->
+        </section>
+    </main>
+    
+    
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Shopping Cart</h2>
+        <div id="cartContent"></div>
+      </div>
+    </div>
+
+    <!-- Login/Signup Modal -->
+    <div id="loginSignupModal" class="form-container">
+      <div class="form-content">
+        <span class="close">&times;</span>
+        <h2>Login / Signup</h2>
+        <!-- Login Form -->
+        <form id="loginForm">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+        <br>
+        <!-- Signup Form -->
+        <form id="signupForm">
+            <label for="signupEmail">Email:</label><br>
+            <input type="email" id="signupEmail" name="signupEmail"><br>
+            <label for="signupPassword">Password:</label><br>
+            <input type="password" id="signupPassword" name="signupPassword"><br><br>
+            <input type="submit" value="Signup">
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
