@@ -29,8 +29,8 @@ function addToCart(product) {
 
 // Sample product data
 const products = [
-    { id: 1, name: 'Potato', category: 'vegetables', price: 30, image: 'images/potato.png' },
-    { id: 2, name: 'Tomato', category: 'fruits', price: 50, image: 'images/tomato2.png' },
+    { id: 1, name: 'Potato', category: 'vegetables', price: 30, image: 'potato.png' },
+    { id: 2, name: 'Tomato', category: 'fruits', price: 50, image: 'tomato2.png' },
     // { id: 3, name: 'product 3', category: 'fruits', price: 2.49, image: 'orange.jpg' },
     // { id: 4, name: 'product 4', category: 'vegetables', price: 0.75, image: 'carrot.jpg' },
     // { id: 5, name: 'product 5', category: 'vegetables', price: 1.25, image: 'tomato.jpg' },
